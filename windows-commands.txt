@@ -1,0 +1,5 @@
+How to check port 8080 in Windows Command Prompt?
+netstat -aon | find ":8080" (Open Cmd with Admin rights)
+
+Find Process Name by its Process ID in Windows Command Prompt?
+tasklist /fi "pid eq <pid>"
