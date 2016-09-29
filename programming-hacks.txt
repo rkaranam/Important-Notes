@@ -1,0 +1,3 @@
+How to download a single folder or directory from a GitHub repo?
+GitZip - http://kinolien.github.io/gitzip/
+http://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo/33753575#33753575
