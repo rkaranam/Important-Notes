@@ -1,3 +1,8 @@
 How to download a single folder or directory from a GitHub repo?
 GitZip - http://kinolien.github.io/gitzip/
 http://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo/33753575#33753575
+
+Proxy issue during Angular 2?
+npm config set proxy <proxy-url>:<port>
+npm config set https-proxy <proxy-url>:<port>
+npm config get proxy (Verify proxy)
