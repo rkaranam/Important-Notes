@@ -3,3 +3,6 @@ netstat -aon | find ":8080" (Open Cmd with Admin rights)
 
 Find Process Name by its Process ID in Windows Command Prompt?
 tasklist /fi "pid eq <pid>"
+
+Kill Process using pid (Must have admin rights)
+taskkill /pid <pid> /f
