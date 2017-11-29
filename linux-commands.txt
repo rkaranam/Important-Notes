@@ -1,1 +1,6 @@
 
+How to find particular type of files in a directory?
+find . -type f -name "*.md"     /* Returns all files of type markdown */
+
+How to exculde particular directory when finding particular type of files in a directory?
+find . -type f -name "*.md" -not -path "./node_modules/*"     /* Returns all markdown files which are not in node_modules dir */
