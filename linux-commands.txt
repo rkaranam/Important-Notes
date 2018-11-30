@@ -7,3 +7,9 @@ find . -type f -name "*.md" -not -path "./node_modules/*"     /* Returns all mar
 
 List all files with file sizes in megabytes?
 ls -al --block-size=MB
+
+List lines above and below a search text in a file?
+Use -A and -B switches (mean lines-after and lines-before):
+grep -A 1 -B 2 "Search Text" file.txt  /* Lists one line above and two lines below search text */
+Use -C (for both above and below of certain line count)
+grep -C 10 "Search Text" file.txt /* Lists 10 lines above and below search text */
